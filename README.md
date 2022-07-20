@@ -2,7 +2,7 @@
 [![Dependency Review](https://github.com/KOSASIH/zixstudio/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/dependency-review.yml)
 [![OSSAR](https://github.com/KOSASIH/zixstudio/actions/workflows/ossar.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/ossar.yml)
 [![Codacy Security Scan](https://github.com/KOSASIH/zixstudio/actions/workflows/codacy.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/codacy.yml)
-
+[![CodeQL](https://github.com/KOSASIH/zixstudio/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/codeql-analysis.yml)
 
 # Zixstudio
 
