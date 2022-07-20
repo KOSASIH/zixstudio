@@ -1,11 +1,11 @@
 // Import baseLanguage just to show an example with customizing the slug source
 // option
-import { baseLanguage } from '../languages'
+import { baseLanguage } from "../languages";
 
 export default {
-  title: 'Article',
-  name: 'article',
-  type: 'document',
+  title: "Article",
+  name: "article",
+  type: "document",
   // This property says we should have all fields localized,
   // except any field that explicitly says localize: false
   localize: true,
@@ -16,58 +16,58 @@ export default {
   // base language.
   preview: {
     select: {
-      title: 'title',
-      media: 'image'
-    }
+      title: "title",
+      media: "image",
+    },
   },
   fields: [
     {
-      type: 'string',
-      name: 'title',
+      type: "string",
+      name: "title",
     },
     {
-      title: 'Slug',
-      name: 'slug',
-      type: 'slug',
+      title: "Slug",
+      name: "slug",
+      type: "slug",
       options: {
         // How you could manually specify a translated field, should you have
         // to.
-        source: `title.${baseLanguage.name}`
+        source: `title.${baseLanguage.name}`,
       },
-      localize: false
+      localize: false,
     },
     {
-      type: 'openGraph',
-      name: 'openGraph'
+      type: "openGraph",
+      name: "openGraph",
     },
     {
-      type: 'image',
-      name: 'image',
+      type: "image",
+      name: "image",
       options: {
-        hotspot: true
-      }
+        hotspot: true,
+      },
     },
     {
-      type: 'richText',
-      name: 'body'
+      type: "richText",
+      name: "body",
     },
     {
-      type: 'reference',
-      name: 'author',
-      to: [{ type: 'author' }]
+      type: "reference",
+      name: "author",
+      to: [{ type: "author" }],
     },
     {
-      type: 'array',
-      name: 'authors',
+      type: "array",
+      name: "authors",
       // We probably don't want localized versions of this reference array, so
       // we opt out of localizing this specific field
       localize: false,
       of: [
         {
-          type: 'reference',
-          to: [{ type: 'author' }]
-        }
-      ]
-    }
-  ]
-}
+          type: "reference",
+          to: [{ type: "author" }],
+        },
+      ],
+    },
+  ],
+};

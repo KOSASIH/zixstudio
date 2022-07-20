@@ -1,25 +1,25 @@
 export default {
-  title: 'Author',
-  name: 'author',
-  type: 'document',
+  title: "Author",
+  name: "author",
+  type: "document",
   fields: [
     {
-      title: 'Name',
-      name: 'name',
-      type: 'string',
+      title: "Name",
+      name: "name",
+      type: "string",
     },
     {
-      type: 'image',
-      name: 'image',
+      type: "image",
+      name: "image",
       options: {
-        hotspot: true
+        hotspot: true,
       },
     },
     {
-      type: 'richText',
-      name: 'bio',
+      type: "richText",
+      name: "bio",
       // Only want the bio to be localized in this case
-      localize: true
-    }
+      localize: true,
+    },
   ],
-}
+};

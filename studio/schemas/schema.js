@@ -1,16 +1,16 @@
-import createSchema from 'part:@sanity/base/schema-creator'
-import schemaTypes from 'all:part:@sanity/base/schema-type'
+import createSchema from "part:@sanity/base/schema-creator";
+import schemaTypes from "all:part:@sanity/base/schema-type";
 
-import richText from './objects/richText'
-import openGraph from './objects/openGraph'
-import captionImage from './objects/captionImage'
-import article from './documents/article'
-import author from './documents/author'
-import post from './documents/post'
-import { translateFields } from './fieldTranslation'
+import richText from "./objects/richText";
+import openGraph from "./objects/openGraph";
+import captionImage from "./objects/captionImage";
+import article from "./documents/article";
+import author from "./documents/author";
+import post from "./documents/post";
+import { translateFields } from "./fieldTranslation";
 
 export default createSchema({
-  name: 'default',
+  name: "default",
   types: schemaTypes
     .concat([
       // Any base object you've defined,
@@ -19,7 +19,7 @@ export default createSchema({
       richText,
       openGraph,
       captionImage,
-      post
+      post,
     ])
     // Include documents with field translation support.
     // This changes their structure, transforming
@@ -31,8 +31,5 @@ export default createSchema({
     // not set localize: true on root level, or
     // set localize: true on any field level will
     // not be changed.
-    .concat(translateFields([
-      article,
-      author
-    ]))
-})
+    .concat(translateFields([article, author])),
+});
