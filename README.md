@@ -4,6 +4,7 @@
 [![Codacy Security Scan](https://github.com/KOSASIH/zixstudio/actions/workflows/codacy.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/codacy.yml)
 [![CodeQL](https://github.com/KOSASIH/zixstudio/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/codeql-analysis.yml)
 [![DeepSource](https://deepsource.io/gh/KOSASIH/zixstudio.svg/?label=active+issues&show_trend=true&token=oFzLvTQp0vV1N53fPjk3NYk9)](https://deepsource.io/gh/KOSASIH/zixstudio/?ref=repository-badge)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c4cdfb0-9a09-42b7-a5cb-50b24e2987e5/deploy-status)](https://app.netlify.com/sites/zixstudio-studio/deploys)
 
 # Zixstudio
 
