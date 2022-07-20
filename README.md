@@ -3,6 +3,7 @@
 [![OSSAR](https://github.com/KOSASIH/zixstudio/actions/workflows/ossar.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/ossar.yml)
 [![Codacy Security Scan](https://github.com/KOSASIH/zixstudio/actions/workflows/codacy.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/codacy.yml)
 [![CodeQL](https://github.com/KOSASIH/zixstudio/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/KOSASIH/zixstudio/actions/workflows/codeql-analysis.yml)
+[![DeepSource](https://deepsource.io/gh/KOSASIH/zixstudio.svg/?label=active+issues&show_trend=true&token=oFzLvTQp0vV1N53fPjk3NYk9)](https://deepsource.io/gh/KOSASIH/zixstudio/?ref=repository-badge)
 
 # Zixstudio
 
