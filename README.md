@@ -1,3 +1,5 @@
+![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=moment&package-manager=npm_and_yarn&previous-version=2.29.1&new-version=2.29.4)
+
 # Zixstudio
 
 Zixstudio is where you edit and structure your content.
