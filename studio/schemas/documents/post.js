@@ -1,45 +1,45 @@
-import { i18n } from '../documentTranslation'
+import { i18n } from "../documentTranslation";
 
 export default {
-  title: 'Post',
-  name: 'post',
-  type: 'document',
+  title: "Post",
+  name: "post",
+  type: "document",
   // The next property enables full-document translation for this document
   // via the sanity-intl plugin. You can of course modify this object should you
   // need to on a document-to-document bassis.
   i18n,
   fields: [
     {
-      title: 'Title',
-      name: 'title',
-      type: 'string',
+      title: "Title",
+      name: "title",
+      type: "string",
     },
     {
-      title: 'Slug',
-      name: 'slug',
-      type: 'slug',
+      title: "Slug",
+      name: "slug",
+      type: "slug",
       options: {
-        source: 'title',
+        source: "title",
       },
     },
     {
-      title: 'Image',
-      name: 'image',
-      type: 'captionImage',
+      title: "Image",
+      name: "image",
+      type: "captionImage",
       options: {
-        hotspot: true
+        hotspot: true,
       },
     },
     {
-      title: 'Body',
-      name: 'body',
-      type: 'richText'
-    }
+      title: "Body",
+      name: "body",
+      type: "richText",
+    },
   ],
   preview: {
     select: {
-      title: 'title',
-      media: 'image'
-    }
-  }
-}
+      title: "title",
+      media: "image",
+    },
+  },
+};
